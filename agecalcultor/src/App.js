@@ -37,10 +37,6 @@ function AgeCalculator() {
 
     let result = `<p class="birthdate">You were born on ${inputDate.toDateString()}.</p>`;
     result += `<p class="age">You are ${years} years, ${months} months and ${days} days old.</p>`;
-    if (months === 0 && days === 0) {
-      result += `<p class="wishing">Happy Birthday!🎂🎈🎈</p>`;
-    }
-
     setAgeResult(result);
   };
 
